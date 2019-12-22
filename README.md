@@ -1,2 +1,0 @@
-# manojpylaportfolio
- Data Science Portfolio
