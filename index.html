@@ -1,286 +1,823 @@
-<!doctype html>
-<html lang="en">
-
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Manoj Pyla Portfolio</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Additional CSS -->
-    <link rel="stylesheet" href="addedstyles.css">
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <title>Jeff Hale's Portfolio Page</title>
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
 
 </head>
 
 <body>
 
-    <div class="container">
+   <!-- Header
+   ================================================== -->
+   <header id="home">
 
-        <div class="row">
-            <div class="col-lg text-center">
-                <p></p>
-                <h1>Hi, I'm Jeff Hale! </h1>
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Works</a></li>
+            <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">I'm Manoj Pyla.</h1>
+            <h3>I'm a California based <span>Data Science </span>, <span>Professional</span> and <span>Data Enthusiast</span> creating awesome and
+            effective business insights for problems of all types. Let's <a class="smoothscroll" href="#about">start scrolling</a>
+            and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <hr />
+            <ul class="social">
+               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+               <li><a href="#"><i class="fa fa-skype"></i></a></li>
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>The brief summary about me should be a catchy and an interesting
+               para to kick start the conversation with the viewer.
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>Manoj Pyla</span><br>
+						   <span>191 Rockview<br>
+						         Irvine, CA 92612 US
+                     </span><br>
+						   <span>(562)413-8462</span><br>
+                     <span>manojpyla19@gmail.com</span>
+					   </p>
+
+               </div>
+
+               <div class="columns download">
+                  <p>
+                     <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>University of Life</h3>
+                  <p class="info">Master in Business Analytics <span>&bull;</span> <em class="date">June 2020</em></p>
+
+                  <p>
+                  Relevant coursework
+                  machine learning dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+                  ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                  Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>School of Cool Designers</h3>
+                  <p class="info">Bachelors of Engineering Degree in Computer Science and Engineering <span>&bull;</span> <em class="date">June 2013</em></p>
+
+                  <p>
+                  Design and Analysis of Algorithms
+                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
+                  ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Work</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Awesome Design Studio</h3>
+                  <p class="info">Senior Business Analytics Developer <span>&bull;</span> <em class="date">March 2015 - June 2019</em></p>
+
+                  <p>
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+                  ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                  Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Super Cool Studio</h3>
+                  <p class="info">UX Designer <span>&bull;</span> <em class="date">March 2007 - February 2010</em></p>
+
+                  <p>
+                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
+                  ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+            voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+            voluptatem sequi nesciunt.
+            </p>
+
+				<div class="bars">
+
+				   <ul class="skills">
+					   <li><span class="bar-expand photoshop"></span><em>Python</em></li>
+                  <li><span class="bar-expand illustrator"></span><em>R</em></li>
+						<li><span class="bar-expand wordpress"></span><em>Weka</em></li>
+						<li><span class="bar-expand css"></span><em>Tableau</em></li>
+						<li><span class="bar-expand html5"></span><em>HTML5</em></li>
+            <li><span class="bar-expand jquery"></span><em>SQL</em></li>
+            <li><span class="bar-expand jquery"></span><em>PL/SQL</em></li>
+                  <li><span class="bar-expand jquery"></span><em>JAVA</em></li>
+					</ul>
+
+				</div><!-- end skill-bars -->
+
+			</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Check Out Some of My Works.</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/portfolio/coffee.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Coffee</h5>
+                              <p>Illustrration</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="images/portfolio/console.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Console</h5>
+                              <p>Web Development</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img alt="" src="images/portfolio/judah.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Judah</h5>
+                              <p>Webdesign</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-04" title="">
+                        <img alt="" src="images/portfolio/into-the-light.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Into The Light</h5>
+                              <p>Photography</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-05" title="">
+                        <img alt="" src="images/portfolio/farmerboy.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Farmer Boy</h5>
+                              <p>Branding</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-06" title="">
+                        <img alt="" src="images/portfolio/girl.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Girl</h5>
+                              <p>Photography</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-07" title="">
+                        <img alt="" src="images/portfolio/origami.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Origami</h5>
+                              <p>Illustrration</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-08" title="">
+                        <img alt="" src="images/portfolio/retrocam.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Retrocam</h5>
+                              <p>Web Development</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div>  <!-- item end -->
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Coffee Cup</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-        </div>
 
-        <div class="row">
-            <div class="col-sm"></div>
-            <div class="col-sm text-center">
-                <img src="assets/images/jeffhead.jpg" class="img-fluid rounded-circle" alt="Jeff's Head" heigh="150px"
-                    width="150px">
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Console</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, Web Development</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-            <div class="col-sm"></div>
-        </div>
-        <div class="row">
 
-            <div class="col-sm text-center">
-                <hr>
+	      </div><!-- modal-02 End -->
 
-                Author of <a href=https://memorablepython target="_blank"> Memorable Python</a>
-                and <a href=https://memorabledocker target="_blank">Memorable Docker </a> <br>
+         <div id="modal-03" class="popup-modal mfp-hide">
 
-                Google Cloud Certified Professional Data Engineer <br>
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
 
-                Co-organizer of Data Science DC, the largest Washington, DC data science Meetup
+		      <div class="description-box">
+			      <h4>Judah</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm"></div>
-            <div class="col-sm text-center">
-                <hr>
 
-                <h3>Let's Connect!</h3>
-                <p> </p>
-                <a href="https://linkedin.com/in/manojpyla"> LinkedIn</a> -
-                <a href="https://medium.com/@manojpyla19"> Medium</a> - <a href="https://github.com/manojpyla">
-                    GitHub</a>
-                -
-                <a href="mailto:manojpyla19@gmail.com?subject=Inquiry from Portfolio">Email</a>
+	      </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Into the Light</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-            <div class="col-sm"></div>
-        </div>
-        <hr>
-        <div class="row">
 
-            <div class="col-sm text-center">
-                <p>
-                    I am a Data Enthusiast, Machine learning Developer and love data science and make
-                    data-driven decisions.
-                </p>
+	      </div><!-- modal-04 End -->
+
+         <div id="modal-05" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Farmer Boy</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-        </div>
 
-        <div class="row"></div>
-        <div class="col-lg text-center">
-            <hr>
-            <h3>
-                Check Out Some of My Articles and Projects
-            </h3>
-        </div>
-    </div>
+	      </div><!-- modal-05 End -->
 
-    <div class="row">
-        <div class="col-lg text-center">
+         <div id="modal-06" class="popup-modal mfp-hide">
 
-            <a href="https://towardsdatascience.com/learn-enough-docker-to-be-useful-b7ba70caeb4b">
-                <img src="assets/images/docker0.png" class="img-fluid" alt="Docker Article 1">
-            </a>
-            <a href="https://towardsdatascience.com/learn-enough-docker-to-be-useful-1c40ea269fa8">
-                <img src="assets/images/docker2.png" class="img-fluid" alt="Docker Article 2">
-            </a>
-            <a href="https://towardsdatascience.com/learn-enough-docker-to-be-useful-b0b44222eef5">
-                <img src="assets/images/docker3.png" class="img-fluid" alt="Docker Article 3">
-            </a>
-            <a href="https://towardsdatascience.com/slimming-down-your-docker-images-275f0ca9337e">
-                <img src="assets/images/docker5.png" class="img-fluid" alt="Docker Article 4">
-            </a>
-            <a href="https://towardsdatascience.com/15-docker-commands-you-should-know-970ea5203421">
-                <img src="assets/images/docker4.png" class="img-fluid" alt="Docker Article 5">
-            </a>
-            <a href="https://towardsdatascience.com/pump-up-the-volumes-data-in-docker-a21950a8cd8">
-                <img src="assets/images/docker6.png" class="img-fluid" alt="Docker Article 6">
-            </a>
-            <a href="https://towardsdatascience.com/key-kubernetes-concepts-62939f4bc08e?source=friends_link&sk=d46386ce56c00701dbf41aa8d308a14d">
-                <img src="assets/images/k8s1.png" class="img-fluid" alt="K8s Article 1">
-            </a>
-            <a href="https://towardsdatascience.com/key-kubernetes-commands-741fe61fde8?source=friends_link&sk=42b902d4c337496eb2d5cf40f21e51c6">
-                <img src="assets/images/k8s2.png" class="img-fluid" alt="K8s Article 2">
-            </a>
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
 
-            <a href="https://towardsdatascience.com/10-days-to-become-a-google-cloud-certified-professional-data-engineer-fdb6c401f8e0?source=friends_link&sk=84b9c3f78772308e0407e28af4819324">
-                <img src="assets/images/googleengineer.png" class="img-fluid" alt="Google Data Engineer">
-            </a>
+		      <div class="description-box">
+			      <h4>Girl</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+		      </div>
 
-        </div>
-        <div class="col-lg text-center">
-            <a href="https://towardsdatascience.com/build-your-first-open-source-python-project-53471c9942a7">
-                <img src="assets/images/opensource1.png" class="img-fluid" alt="Python Project Setup">
-            </a>
-            <a href="https://towardsdatascience.com/10-steps-to-set-up-your-python-project-for-success-14ff88b5d13">
-                <img src="assets/images/opensource2.png" class="img-fluid" alt="Python Project Tests">
-            </a>
-            <a href="https://towardsdatascience.com/the-most-in-demand-skills-for-data-scientists-4a4a8db896db">
-                <img src="assets/images/skills.png" class="img-fluid" alt="Most In Demand Data Science Skills">
-            </a>
-            <a href="https://towardsdatascience.com/maximize-your-gpu-dollars-a9133f4e546a">
-                <img src="assets/images/cloud.png" class="img-fluid" alt="GPU Cloud Comparison">
-            </a>
-            <a href="https://towardsdatascience.com/10-git-commands-you-should-know-df54bea1595c">
-                <img src="assets/images/gitcommands.png" class="img-fluid" alt="Git Commands">
-            </a>
-            <a
-                href="https://towardsdatascience.com/smarter-ways-to-encode-categorical-data-for-machine-learning-part-1-of-3-6dca2f71b159">
-                <img src="assets/images/catencoders.png" class="img-fluid" alt="Categorical Encoders">
-            </a>
-            <a href="https://towardsdatascience.com/its-2019-make-your-data-visualizations-interactive-with-plotly-b361e7d45dc6?source=friends_link&sk=ad9ff3eda197071e6b056abe23c1509e">
-                <img src="assets/images/plotly.png" class="img-fluid" alt="Plotly">
-            </a>
-            <a href="https://towardsdatascience.com/surprising-sorting-tips-for-data-scientists-9c360776d7e?source=friends_link&sk=c11b328e381e6c95b8e75d58b09546a3">
-                <img src="assets/images/sorting.png" class="img-fluid" alt="Sorting Tips">
-            </a>
-        </div>
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
 
-        <div class="col-lg text-center">
-            <a href="https://towardsdatascience.com/learn-enough-python-to-be-useful-argparse-e482e1764e05">
-                <img src="assets/images/argparse.png" class="img-fluid" alt="Python Argparse">
-            </a>
-            <a href="https://towardsdatascience.com/10-python-file-system-methods-you-should-know-799f90ef13c2">
-                <img src="assets/images/python3.png" class="img-fluid" alt="Python File System Methods">
-            </a>
-            <a href="https://towardsdatascience.com/scale-standardize-or-normalize-with-scikit-learn-6ccc7d176a02">
-                <img src="assets/images/scaler.png" class="img-fluid" alt="Standardize Scale Normalize">
-            </a>
-            <a href="https://towardsdatascience.com/quickly-train-and-deploy-an-ai-computer-vision-app-d34ffa21fdd">
-                <img src="assets/images/render2.png" class="img-fluid" alt="Deploy AI with Render">
-            </a>
-            <a href="https://towardsdatascience.com/deep-learning-framework-power-scores-2018-23607ddf297a">
-                <img src="assets/images/dlscores.png" class="img-fluid" alt="Deep Learning Framework Power Scores">
-            </a>
-            <a href="https://towardsdatascience.com/tpot-automated-machine-learning-in-python-4c063b3e5de9">
-                <img src="assets/images/tpot.png" class="img-fluid" alt=TPOT>
-            </a>
-            <a href="https://towardsdatascience.com/which-deep-learning-framework-is-growing-fastest-3f77f14aa318?source=friends_link&sk=0a10207f22f4dbc143e7a90a3f843515">
-                <img src="assets/images/pytorch_tf.png" class="img-fluid" alt="PyTorch vs. TensorFlow 2019">
-            </a>
-            <a href="https://towardsdatascience.com/top-20-docker-security-tips-81c41dd06f57?source=friends_link&sk=efeac3577bd9c698d59dfd07c5fef40d">
-                <img src="assets/images/dockersecurity.png" class="img-fluid" alt="Docker Security">
-            </a>
-        </div>
-    </div>
+	      </div><!-- modal-06 End -->
 
-    <div class="row">
-        <div class="col-md text-center">
-            <hr>
-            <h3> More Projects </h3>
-        </div>
-    </div>
+         <div id="modal-07" class="popup-modal mfp-hide">
 
-    <div class="row">
-        <div class="col-sm py-3 px-sm-5">
-            <p>
-                <a href="https://pypi.org/project/pybraries/" alt="pybraries package">
-                    <strong>Python wrapper for the libraries.io API</strong> </a> -
-                A Python package for interacting with the libraries.io API to subscribe to open source project
-                updates and get information about packages and repos.
-            </p>
-            <p>
-                <a href="https://mybinder.org/v2/gh/discdiver/new-belgium-ratings/master" alt="New Belgium analysis">
-                    <strong>Web scraping, data analysis, and data visualization</strong></a> -
-                Uses requests, BeautifulSoup, pandas, and Seaborn to scrape and prepare New Belgium beer ratings.
-                An interactive Tableau dashboard is available
-                <a href="https://public.tableau.com/profile/jeff.hale6436#!/vizhome/NewBelgiumBeerRatings/NewBelgiumBeerAdvocateRatings" alt="binder notebook link">
-                here </a> for visualization.</strong>
-            </p>
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Origami</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-07 End -->
+
+         <div id="modal-08" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Retrocam</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
 
 
-            <p>
-                <a href="https://github.com/notebooktoall/notebooktoall" alt="notebooktoall package">
-                    <strong>Python package for nbconvert</strong> </a> -
-                A wrapper that allows you to easily convert a Jupyter Notebook to an HTML file or Python script from
-                inside your Python program.
-            </p>
-            <p>
-                <a href="https://mybinder.org/v2/gh/discdiver/ninja-warrior-scrape/master" alt="American Ninja Warrior">
-                    <strong>Web scraping, data analysis, and data visualization</strong></a> -
-                Uses requests, BeautifulSoup, pandas, and Seaborn to scrape and analyze American Ninja
-                Warrior data.</strong>
-            </p>
-            <p>
-                <a href="https://github.com/discdiver/buy-low-sell-high/blob/master/buy_low_sell_high.ipynb"
-                    alt="GitHub backtesting">
-                    <strong>Financial backtesting with ShillerPE and moving average models</strong></a> -
-                Shows how hard it is to buy low and sell high.
-            </p>
-            <p>
-                <a href="https://github.com/discdiver/prophet-time-series" alt="Prophet exploration">
-                    <strong>Time series forecasting with Prophet and pandas</strong></a> -
-                An exploration of Prophet for time-series forecasting with flight data.
-            </p>
-        </div>
-    </div>
+      </div> <!-- row End -->
 
-    <div class="row">
-        <hr>
-        <div class="col-sm text-center">
-           <a href="https://memorablepython.com">
-           <img src="assets/images/finalcover.png" class="img-fluid w-50 p-3 border" alt="Memorable Python Cover"> </img> </a>
-
-        </div>
-
-        <div class="col-sm text-center">
-          <a href="https://memorabledocker.com">
-          <img src="assets/images/memdockyear.png" class="img-fluid w-50 p-3 border" alt="Memorable Docker Cover"> </img> </a>
-        </div>
-    </div>
+   </section> <!-- Portfolio Section End-->
 
 
-    <div class="row">
-        <div class="col-sm text-center">
-            <hr>
-            <h3> Fun Facts </h3>
-        </div>
-    </div>
+   <!-- Call-To-Action Section
+   ================================================== -->
+   <section id="call-to-action">
 
-    <div class="row">
-        <div class="col-sm py-3 px-sm-5">
-            <p>
-                In 2012, I co-founded <a href=" https://rebeldesk.com" alt="Rebel Desk"> Rebel Desk, </a>
-                an ecommerce company that sells a treadmill that goes under a standing desk.
-                It allows you to walk while you work, so you can be healthier, happier, and more productive.
-            </p>
-            <p>
-                I'm based in Washington, DC and into learning, exercise, and continuous improvement.
-            </p>
-            <p>
-            </p>
-        </div>
-    </div>
+      <div class="row">
+
+         <div class="two columns header-col">
+
+            <h1><span>Get Hosting.</span></h1>
+
+         </div>
+
+         <div class="seven columns">
+
+            <h2><a rel="nofollow" href="http://www.a2hosting.com/?utm___source=styleshoutdemo&utm_medium=__cpm&utm_content=&utm_campaign=">Host This Template on A2 Hosting.</a></h2>
+            <p>300% Faster Hosting on Their SwiftServer SSDs.</p>
+
+         </div>
+
+         <div class="three columns action">
+
+            <a rel="nofollow" href="http://www.a2hosting.com/?utm___source=styleshoutdemo&utm_medium=__cpm&utm_content=&utm_campaign=" class="button">Sign Up Now</a>
+
+         </div>
+
+      </div>
+
+   </section> <!-- Call-To-Action Section End-->
 
 
-    <div class="row">
-        <hr>
-         <div class="col-sm py-3 px-sm-5 text-center">
-             <p>
-                 Subscribe to my <a href="https://dataawesome.com" alt="newsletter signup"> Data Awesome newsletter</a> for monthly updates on great data science articles, news, and tools!
-             </p>
-        </div>
-    </div>
-    <div class="row row-grey">
-        <div class="col-sm text-center py-3">
-            <h5>Let's Connect!</h5>
-            <p> </p>
-            <a href="https://linkedin.com/in/manojpyla"> LinkedIn</a> -
-            <a href="https://medium.com/@manojpyla19"> Medium</a> - <a href="https://github.com/manojpyla"> GitHub</a> -
-            <a href="mailto:manojpyla19@gmail.com?subject=Inquiry from Portfolio">Email</a>
-            <p></p>
-        </div>
-    </div>
+   <!-- Testimonials Section
+   ================================================== -->
+   <section id="testimonials">
+
+      <div class="text-container">
+
+         <div class="row">
+
+            <div class="two columns header-col">
+
+               <h1><span>Client Testimonials</span></h1>
+
+            </div>
+
+            <div class="ten columns flex-container">
+
+               <div class="flexslider">
+
+                  <ul class="slides">
+
+                     <li>
+                        <blockquote>
+                           <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is
+                           to do what you believe is great work. And the only way to do great work is to love what you do.
+                           If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+                           </p>
+                           <cite>Steve Jobs</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                     <li>
+                        <blockquote>
+                           <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                           Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                           nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                           </p>
+                           <cite>Mr. Adobe</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                  </ul>
+
+               </div> <!-- div.flexslider ends -->
+
+            </div> <!-- div.flex-container ends -->
+
+         </div> <!-- row ends -->
+
+       </div>  <!-- text-container ends -->
+
+   </section> <!-- Testimonials Section End-->
+
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+         <div class="row section-head">
+
+            <div class="two columns header-col">
+
+               <h1><span>Get In Touch.</span></h1>
+
+            </div>
+
+            <div class="ten columns">
+
+                  <p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                  eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                  voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                  </p>
+
+            </div>
+
+         </div>
+
+         <div class="row">
+
+            <div class="eight columns">
+
+               <!-- form -->
+               <form action="" method="post" id="contactForm" name="contactForm">
+					<fieldset>
+
+                  <div>
+						   <label for="contactName">Name <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactName" name="contactName">
+                  </div>
+
+                  <div>
+						   <label for="contactEmail">Email <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                  </div>
+
+                  <div>
+						   <label for="contactSubject">Subject</label>
+						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                  </div>
+
+                  <div>
+                     <label for="contactMessage">Message <span class="required">*</span></label>
+                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                  </div>
+
+                  <div>
+                     <button class="submit">Submit</button>
+                     <span id="image-loader">
+                        <img alt="" src="images/loader.gif">
+                     </span>
+                  </div>
+
+					</fieldset>
+				   </form> <!-- Form End -->
+
+               <!-- contact-warning -->
+               <div id="message-warning"> Error boy</div>
+               <!-- contact-success -->
+				   <div id="message-success">
+                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+				   </div>
+
+            </div>
+
+
+            <aside class="four columns footer-widgets">
+
+               <div class="widget widget_contact">
+
+					   <h4>Address and Phone</h4>
+					   <p class="address">
+						   Jonathan Doe<br>
+						   1600 Amphitheatre Parkway <br>
+						   Mountain View, CA 94043 US<br>
+						   <span>(123) 456-7890</span>
+					   </p>
+
+				   </div>
+
+               <div class="widget widget_tweets">
+
+                  <h4 class="widget-title">Latest Tweets</h4>
+
+                  <ul id="twitter">
+                     <li>
+                        <span>
+                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
+                        <a href="#">http://t.co/CGIrdxIlI3</a>
+                        </span>
+                        <b><a href="#">2 Days Ago</a></b>
+                     </li>
+                     <li>
+                        <span>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                        eaque ipsa quae ab illo inventore veritatis et quasi
+                        <a href="#">http://t.co/CGIrdxIlI3</a>
+                        </span>
+                        <b><a href="#">3 Days Ago</a></b>
+                     </li>
+                  </ul>
+
+		         </div>
+
+            </aside>
+
+      </div>
+
+   </section> <!-- Contact Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+               <li><a href="#"><i class="fa fa-skype"></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; 2014 CeeVee</li>
+               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
+               <li>Sponsored by <a rel="nofollow" href="http://www.a2hosting.com/?utm___source=styleshoutdemo&utm_medium=__cpm&utm_content=&utm_campaign=">A2Hosting</a></li>
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
 </body>
 
 </html>
